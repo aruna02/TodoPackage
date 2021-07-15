@@ -1,0 +1,23 @@
+{
+    "name": "spices/todoapp",
+    "description": "this is todo app ",
+    "authors": [{
+        "name": "aruna-spices",
+        "email": "aruna.shrestha313@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Spices\\TodoApp\\": "src/"
+        },
+        "classmap": [
+            "src/app/"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spices\\TodoApp\\Providers\\TodoPackageServiceProvider"
+            ]
+        }
+    }
+}
